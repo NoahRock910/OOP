@@ -1,0 +1,2 @@
+//Write a program, which when run, will ask the user to enter their height in inches, and which will then calculate and display their height in feet and inches. Note that there are 12 inches in a foot.
+// Hint: Use modulus operator %
