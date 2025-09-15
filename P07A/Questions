@@ -1,0 +1,56 @@
+1. Write and run a Java program that does the following:
+a) Declare a String object s containing the String “java is fun”.
+b) Print the string s.
+c) Use the length() method to print the length of the string.
+d) Use the charAt() method to print the first character in the string
+e) Use the charAt() and the length() methods to print the last character
+in the string
+f) Use the charAt() and the length() methods to print the middle
+character in the string. If the string is odd print the middle character, if even
+print two middle chars
+g) Use the indexOf() and the substring() methods to print the first word
+in the string.
+h) Use the indexOf() and the substring() methods to print the second
+word in the string.
+i) Display the string in upper and lower case
+j) Replace the letter ‘a’ in the string with ‘@’
+
+2. Write a program which will ask the user to enter two strings. The program will then
+display the longest string on screen. Sample output:
+Please enter the first String: Donegal
+Please enter the second String: Dublin
+Donegal is the longest String.
+
+3. Assuming that the password to login is “Open Sesame”, write a program that will ask
+the user to enter a password to login. If the password is correct display an
+appropriate message, if not, display an appropriate message and allow the user to
+re-enter the password.
+Adapt this program so that the user is only allowed three attempts at entering the
+correct password.
+
+4. Write a program that will ask the user to enter two strings. The program will then
+tell the user whether the first string contains the second String
+Please enter the first String: I love java!
+Please enter the second String: java
+“I love java!” contains the text “java”
+Modify this program so that it will display an appropriate message if the first String
+either starts with, or ends with the second String.
+Please enter the first String: Hello World
+Please enter the second String: World
+Hello World contains the text World
+Hello World ends with the text World
+
+5. Examine the compareTo() method of the String class. Describe in your own words
+what the method does and show returntype and parameters if any.
+Write a program that accepts two string values from the user and will display them
+in dictionary order. It should display a message like the following
+“Apple” comes before “ball” in the dictionary
+OR
+The strings entered are identical
+
+6. For each of the following, write a Java method that accepts a string argument and
+returns:
+a) A string with all characters in the string separated by ‘_’
+b) A string with all vowels replaced with ‘*’
+c) A string with the first letter of each word capitalised. (title case)
+d) A reverse copy of the original string

@@ -1,0 +1,40 @@
+1. Implement the BankAccount class as shown in Lecture. Compile your code.
+
+2. Write a program called BankAccountTester which instantiates a new
+BankAccount object. Test all the methods of this class.
+
+3. Write a program in which you instantiate a single BankAccount object. Display a
+menu that will allow the user to continually deposit, withdraw and view the balance
+on the account until the user decides to quit.
+*****ATU Bank****
+1. Deposit
+2. Withdraw
+3. Get balance
+4. Quit
+Please select option:
+
+4. Modify the withdraw( ) method of the BankAccount class so that a user can
+only withdraw an amount if the account has sufficient funds. Test the method by
+adapting the program implemented above.
+
+5. Add a new instance variable accountNumber to the BankAccount class. Add
+new methods called getAccountNumber() and setAccountNumber() that
+will allow the user to access this new instance variable. Test your new methods.
+
+6. Implement the Dog class as discussed in lecture (see UML). Write a program called
+DogTester where you create a dog object and test your class.
+
+7. Modify the Dog class so that a small dog’s bark is “yap, yap”, a medium dog’s bark
+is “bow, wow” and a large dog says “ruff, ruff”.
+Small dog size < 30
+Medium dog size < 50
+Large dog size >= 50
+Note how the behaviour of an object can differ depending on the state of its
+instance variables.
+
+8. Define a class Circle. We want to be able to calculate the area of a circle and find
+the circumference of a circle. What methods should the class have? What instance
+variables does it need? Draw the UML. Implement the class.
+Area: (pie)r2
+Circumference: 2(pie)r
+Test your class.

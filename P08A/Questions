@@ -1,0 +1,32 @@
+1. Write a program called OblongTester.java which instantiates (creates) a new
+Oblong object.
+o Use appropriate methods to access the values of each instance variable and
+output them to screen.
+o Prompt the user to enter values for height and width. Use the
+appropriate methods to set the values of instance fields of your Oblong
+object.
+o Display the values of the Oblong instance variables on screen.
+o Find and display the area of the object using the appropriate method.
+
+2. Write a program which instantiates two Oblong objects. Use appropriate methods
+to set their instance variables to values entered by the user. Your program should
+then print out details of the Oblong which has the largest area.
+The largest area is the Oblong with:
+Width 5.0 and Height 7.0
+Area 35.0
+
+3. Before implementing each new method detailed in the questions below, write down
+the method header/signature. Identify
+• An appropriate name
+• The returnType
+• The name and type of any parameters that will be passed to this method
+a) Define a new method that will calculate the perimeter of the Oblong. Test
+your method.
+b) Define a method that will determine if the Oblong is a square. Test the
+method.
+c) Add another method to the Oblong class that will increase the height and
+width values of an Oblong by amounts passed as arguments. Test your
+method.
+d) Add a new method that will find the length of the diagonal of an Oblong
+object. Test your method.
+ Hint: Look in the Math class for a method to help with this calculation.

@@ -1,0 +1,77 @@
+TallyCounter class
+1. Design a class for a simple tally counter. (The device is used to count). What
+operations should an object of the class have?
+2. Draw a simple UML class diagram for your class.
+3. Implement the TallyCounter class.
+4. Write a simple program to test your class.
+
+Currency Converter class
+1. Design a class for a simple currency converter. The class should have a method
+to set and get the exchange rate. The class should also have methods to
+convert a Euro amount to a Sterling amount, and to convert a Sterling amount to
+a Euro amount.
+2. Draw a simple UML class diagram for your class.
+3. Implement the Converter class.
+4. Write a simple program to test your class.
+5. Using the Converter class, write a program that will allow the user to perform
+a number of currency conversions. The user should be asked to enter today’s
+exchange rate. The user should be able to do any number of conversions from
+Euro to Sterling and from Sterling to Euro. Use a menu to allow the user to
+select Euro to Sterling or Sterling to Euro or quit. The amount of money entered
+should then be converted to target currency and displayed appropriately.
+Today’s exchange rate is 1 Euro = 0.84 Stg
+
+Pair Class
+Design and implement a class called Pair that has two instance variables no1 and no2 and
+can perform the following operations.
+Calculate the sum
+Calculate the difference
+Calculate the product
+Calculate the average
+Find the maximum(the larger of the two)
+Find the minimum(the smaller of the two)
+Your class should also have a method that will set the values of no1 and no2. This
+could be done with two methods setNo1() and setNo2() or we could use a single
+method setPair().
+
+Postcard Class
+1. Design a Postcard class. We want to send e-postcards with the same message
+to different recipients. We want to be able to change the recipient and keep
+the same message and sender. Identify methods needed. Your design should
+include a print() method for the Postcard class, that displays the contents of the
+postcard on the screen in appropriate format.
+2. Draw a simple UML class diagram for your class.
+3. Implement the Postcard class.
+4. Write a simple program to test your class.
+5. Can you identify any way you might improve this class? Implement and test any
+changes.
+6. Using your Postcard class, write another tester program that will allow the user
+to enter a postcard message and sender name from the keyboard. The program
+should then continually allow the user to enter the name of the recipient and
+print the postcard until the user enters “end”.
+PrintQuota class
+All students have a print quota which allows them to print. The cost of printing a page is
+5 cent. The print quota can be topped up at any time. A student may also need to know
+the amount left in both euro and pages (i.e. the number of pages that they can print).
+Design a PrintQuota class.
+7. Draw a UML class diagram for your class.
+8. Implement the PrintQuota class.
+9. Write a simple program to test your class. Does the tester give expected results?
+Can it be improved?
+10. Using the PrintQuota class, write a program that will allow the user to continually
+view balance in both pages and euro, top up, and print pages until the user
+decides to quit.
+
+Employee Class
+Design and implement a class representing an employee. Each employee has an
+employee number, a name and a salary. The class should include set and get methods
+for each instance variable, and should have methods to perform the following
+operations:
+ Raise the salary by a an amount
+ Calculate the monthly wage (salary / 12)
+ Calculate the weekly wage (salary / 52)
+ Calculate a bonus based on a percentage of salary
+1. Draw a UML class diagram for the Employee class. Ask your lecturer to check this
+before proceeding.
+2. Implement the Employee class as per your UML diagram
+3. Write a tester class which calls all the methods defined in the Employee class.

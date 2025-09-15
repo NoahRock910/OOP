@@ -1,0 +1,69 @@
+1. Download the P11AFiles.zip from Blackboard. Open the BankAccount
+class and examine the code, the instance fields and the methods.
+Ensure that you understand this code. Run the simple Tester program
+Consider a bank that offers its customers the following account types:
+Current account: no interest; three free transactions per
+month, additional transactions are charged a fee of 3.50
+Savings account: earns interest that compounds monthly
+Implement these classes
+
+2. You want to develop a software system for your company and you need
+an Employee class. One has already been implemented. One of the
+greatest benefits of OO programming is code reuse.
+Download the P11AFiles.zip from Blackboard. Open the Employee
+class and examine the code, the instance fields and the methods.
+Ensure that you understand this code. Run the simple EmployeeTester
+program.
+This Employee class might not do everything you need so you extend
+this existing class. This is inheritance.
+
+3. Define a PartTimeEmployee class that will inherit all attributes and
+methods from Employee. It should have one additional attribute,
+hourlyPay, some methods to access this attribute and one additional
+method, calculateWeeklyPay.
+
+4. Draw the UML class diagram for PartTimeEmployee indicating the
+inheritance relationship.
+
+5. Implement the PartTimeEmployee class and test your code.
+
+6. We also have full time employees who earn an annual salary and are paid
+monthly.
+
+7. Implement and test your new class.
+
+8. Extend the FullTimeEmployee class, to create a TermTimeEmployee
+class. The TermTimeEmployee also has an annual salary and a method
+called calculateMonthlyPay(). A TermTimeEmployee only works
+10 months of the year and as such is paid ten-twelve’s of the annual
+salary over the twelve months of the year. Implement the
+TermTimeEmployee class.
+
+9. Test your new class.
+Object Oriented Programming Practical 11A
+Maeve Carr 2 Inheritance
+
+10.Add a TimeDepositAccount class to the bank account hierarchy. The
+time deposit account is just like a savings account, but you promise to
+leave the money in the account for a particular number of months, and
+there is a penalty for early withdrawal. Construct the account with the
+interest rate and the number of months to maturity. In the
+addInterest() method, decrement the count of months. If the count
+is positive during a withdrawal, charge the withdrawal penalty of €10.
+
+11.Open the Customer class and examine the code.
+
+12.Extend this class to implement a CreditCustomer class.
+CreditCustomer has an additional instance variable creditLimit
+that should be initialised in the constructor, and a method
+getCreditLimit() to access this instance variable. A purchase
+cannot be made while creditLimit is exceded. Implement code as
+necessary to reflect this and test all your code.
+
+13.Implement a GoldCustomer class that extends the CreditCustomer
+class. The GoldCustomer class has an added instance field
+transactionCount that keeps tracks of the number of purchases
+made, and an extra method applyDiscount(). applyDiscount()
+applies a 10% discount to the balance each time the
+transactionCount reaches 10. What methods should this class have?
+Implement and test all your code. 

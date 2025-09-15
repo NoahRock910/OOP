@@ -1,0 +1,63 @@
+Ensure that you understand this code before proceeding with the
+practical. Do you understand the use of the static variable? Refer to
+lecture on ArrayLists as necessary.
+
+1. Using the BankAccount class and ArrayListTester.java, write a
+loop that will add 10 BankAccount objects to an array list accountList.
+The opening balance of all new accounts will be 0. Write another loop
+to display the details of all accounts on screen.
+
+2. Add a toString() to BankAcccount. Make the changes in the loop
+that display the bank account details.
+
+3. Complete the code where indicated in ArrayListTester.java.
+Using this code with the ArrayList of BankAccount objects:
+
+4. Write a program that will allow the user to open or close an account and
+deposit, withdraw, display balance for any account in the bank.
+The following questions use an ArrayList of String objects. In your
+program create an ArrayList of String objects called wordList.
+Use the enhanced for (for each) loop for all questions.
+You can initialize your ArrayList with some Strings using the following
+code. Note the double brackets. (There is no need to do this – but it will
+save you having to load the ArrayList with new values each time you run
+program).
+ArrayList <String> wordList = new
+ArrayList<String>()
+{
+ {
+ add("apple");
+ add("cat");
+ add("ball");
+ add("dog");
+ }
+};
+Or you can use this to initialise array list:-
+ArrayList <String> myList
+ = new ArrayList<String>(Arrays.asList("ant", "cat",
+"dog"));
+
+5. Write a program using a menu that will allow the user to continually add,
+remove, view one word or view all words in an ArrayList of Strings
+until the user selects quit.
+
+6. Adapt the code so that the user can chose to add to the end of the list or
+to a particular position in list.
+
+7. Again, implement two versions of remove, one where you remove a
+particular word, one where you remove a word from a position in list.
+
+8. Add another option to the menu that will display all words on screen
+followed by the length of each the word.
+
+9. Add another option to the menu that will display a list of all words
+beginning with a particular letter input by the user.
+
+10.Adapt this so that it will also display the number of words beginning with
+some letter input by user.
+
+11.Write code that will find the length of the longest word and shortest
+word in the list and will display the frequency of each.
+
+12.Write code that will only allow the user to add unique words. If the
+word is already in the list, it will not be added.

@@ -1,0 +1,91 @@
+1. Create an array with 100 elements and initialize each element to 10. Do not input
+values from keyboard – use a for loop. Display the contents of array.
+
+2. Linear or Sequential Search
+Write a program that creates an array called squares and loads it with the
+squares of the numbers 1 through 20 (i.e. 1,4,9,16, …400). Display each number
+on screen. Do not input values from keyboard – use a for loop.
+The user should then be prompted to enter a searchValue and the program
+should display the subscript of the element where the searchValue is
+stored. If the searchValue is not found the program should display an
+appropriate message.
+
+3. Write program that will create a suitable array called alphaArray and initialize
+each element with the letters of the alphabet. Display the contents of the array
+on screen. Do not input values from keyboard – use a for loop.
+The user should then be prompted to enter a letter and the program should
+display a message such as “D is the 4
+th letter in the alphabet”.
+
+4. Write a program that creates an array origArray and loads it with 10 random
+numbers in the range 1 to 30. Display each number on screen. Do not input
+values from keyboard.
+HINT: The following piece of Java code will generate a random number between 0
+and 9.
+Random noGenerator = new Random();
+//declare variable to store random no btw 0 and 9
+int randomNumber;
+randomNumber = noGenerator.nextInt(10);
+To copy the contents of one array to another, you must copy each element
+separately. Write a program that will
+ display the total of all values in origArray
+copy the origArray to a second array called copyArray
+ copy the origArray values to a third array revArray in reverse order.
+ Increase all the values in the first array by 10
+Display contents of all 3 arrays on screen.
+
+5. Write a program that uses an array to store the number of days in each month.
+The array should be initialised with these values when declared. The program
+should ask the user to enter a month number, and should then display the
+number of days in that month. The program should run continually until the user
+enters 0.
+Enter month number[1 to 12]: [enter 0 to stop]: 4
+Month #4 has 30 days
+Enter month number[1 to 12]:[enter 0 to stop]: 0
+Goodbye.
+
+6. Write a program which uses an array to store the total rainfall (in millimetres) for
+each month in a year. For testing purposes initialise (or hardcode) the array with
+12 values. Then find and display each of the following:
+a. Find average monthly rainfall
+b. Find the wettest and driest months (highest and lowest rainfall)
+c. The program should count and display the number of months in which the
+total rainfall was less than 60 mm, and the number of months in which the
+total rainfall exceeded 70 mm.
+
+7. Write a program that uses parallel arrays to accept the home score and the away
+score of the last 6 soccer matches a team has played. The program should then
+report the number of games won, lost and drawn.
+
+8. Write a program that uses a single array to read and store exam marks for five
+subjects. Your program should then list the results, indicating the subjects
+passed, and the subjects failed. Ensure the results are valid i.e. in range 0 to 100.
+Sample output:
+Your results are:
+95 Pass
+28 Fail
+33 Fail
+59 Pass
+80 Pass
+
+9. Using the program above, declare and initialise an array to hold the titles of five
+exam subjects.
+ String[] subjects = {"OOP", "Maths", "Networks",
+ "CAOS", "Databases"};
+The user should be prompted to enter the result for each subject in turn:
+Enter exam results :
+OOP: 95
+. . .
+Your program should print out a report detailing the results in each subject, the
+number of subjects passed and the number of subjects failed. It should also show
+the names of the subjects that must be repeated and the subject and the mark of
+the highest result.
+Overall results are:
+OOP 95 Pass
+Maths 35 Fail
+Networks 63 Pass
+. . .
+Highest Mark: OOP 95%
+No. of subjects passed : 3
+No of subject failed: 2
+Subjects to repeat: Maths, Databases
